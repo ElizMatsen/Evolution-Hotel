@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+   <script src="./js/wow.min.js"></script>
+   <script>
+      new WOW().init();
+   </script>
+   <title>EvolutionHotel</title>
+</head>
+
+<body>
+   <div class="wrapper">
+
+      <header class="header">
+         <div class="container">
+            <nav class="header__container">
+               <div class="header__logo"> <a href=" " class="logo"><img src="./img/icon/logo.svg" alt="logo"></a>
+               </div>
+               <div class="header__burger"><span></span></div>
+               <ul class="header__menu">
+                  <li>
+                     <a href="#services">SERVICES</a>
+                  </li>
+                  <li>
+                     <a href="#pricing">PRICING</a>
+                  </li>
+                  <li>
+                     <a href="#contact">CONTACTS</a>
+                  </li>
+                  <li>
+                     <a href="tel:+375(29)123-45-67">+375(29)123-45-67</a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+      </header>
+
+      <section class="banner">
+         <div class="container">
+            <div class="banner__row">
+               <div class="banner__icon">
+                  <a href="https://www.instagram.com/instagram/?hl=ru"> <img src="./img/icon/instagram-icon.svg"
+                        alt="icon"></a>
+                  <a href="https://web.telegram.org/#/login"><img src="./img/icon/telegram-icon.svg" alt="icon"></a>
+                  <a href="https://twitter.com/?lang=ru"><img src="./img/icon/twitter-icon.svg" alt="icon"></a>
+                  <a href="https://www.facebook.com/"><img src="./img/icon/facebook-icon.svg" alt="icon"></a>
+               </div>
+               <div class="banner__content">
+                  <p class="wow animate__animated animate__fadeInDown">RELAX & REJUVENATE</p>
+                  <h1>WHERE DREAMS COME TRUE</h1>
+                  <p class="wow animate__animated animate__fadeInUp">Luxury space that you can afford</p>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="welcome">
+         <div class="container">
+            <div class="welcome__row">
+               <div class="welcome__description wow animate__animated animate__fadeInLeft">
+                  <h2>
+                     Welcome to our hotel
+                  </h2>
+                  <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ipsam, perspiciatis excepturi eum
+                     illo magni, modi similique vero, quas earum itaque. Ea, eos?</p>
+               </div>
+               <div class="welcome__img wow animate__animated  animate__fadeInRight">
+                  <img class="welcome__bg" src="./img/welcome-bg.jpg" alt="image">
+                  <img class="welcome__photo" src="./img/welcome-img.jpg" alt="image">
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section id="services" class="services">
+         <div class="services__row">
+            <div class="services__item">
+               <img src="./img/services-pool.jpg" alt="image">
+               <div class="services__title">POOL</div>
+            </div>
+            <div class="services__item">
+               <img src="./img/services-restaurant.jpg" alt="image">
+               <div class="services__title">Restaurant</div>
+            </div>
+            <div class="services__item">
+               <img src="./img/services-spa.jpg" alt="image">
+               <div class="services__title">SPA</div>
+            </div>
+            <div class="services__item">
+               <img src="./img/services-activities.jpg" alt="image">
+               <div class="services__title">ACTIVITIES</div>
+            </div>
+         </div>
+      </section>
+
+      <section id="pricing" class="room">
+         <div class="container">
+            <h2>Our rooms</h2>
+            <div class="room__row">
+
+               <div class="room__slide room-active  ">
+                  <div class="room__img  wow animate__animated animate__fadeInLeft">
+                     <img src="./img/room-1.jpg" alt="image">
+                  </div>
+                  <div class="room__content wow animate__animated  animate__fadeInRight">
+                     <h3 class="room__title">Single Room</h3>
+                     <p class="room__text">Single Rooms in our hotel are perfectly equipped for traveling couples or
+                        friends. The park or olive grove view will bring you unforgettable memories.</p>
+                     <span>$190</span>
+                     <a href="#" class="room__btn">Book now</a>
+                  </div>
+               </div>
+
+               <div class="room__slide ">
+                  <div class="room__img">
+                     <img src="./img/room-2.jpg" alt="image">
+                  </div>
+                  <div class="room__content">
+                     <h3 class="room__title">Double Room</h3>
+                     <p class="room__text">Double Room in our hotel are perfectly equipped for traveling couples or
+                        friends. The park or olive grove view will bring you unforgettable memories.</p>
+                     <span>$290</span>
+                     <a href="#" class="room__btn">Book now</a>
+                  </div>
+               </div>
+
+               <div class="room__slide ">
+                  <div class="room__img">
+                     <img src="./img/room-3.jpg" alt="image">
+                  </div>
+                  <div class="room__content">
+                     <h3 class="room__title">Family Room</h3>
+                     <p class="room__text">Family Room in our hotel are perfectly equipped for traveling couples or
+                        friends. The park or olive grove view will bring you unforgettable memories.</p>
+                     <span>$390</span>
+                     <a href="#" class="room__btn">Book now</a>
+                  </div>
+               </div>
+
+               <div class="room__navigation  ">
+                  <div class="room__arrow">
+                     <div id="room__prev"> <img src="./img/icon/arrow-prev.svg" alt="icon"></div>
+                     <div id="room__next"><img src="./img/icon/arrow-next.svg" alt="icon"> </div>
+                  </div>
+                  <div class="room__dots">
+                     <span class="room__dot dot-active"> </span>
+                     <span class="room__dot"></span>
+                     <span class="room__dot"></span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+      <footer id="contact" class="footer">
+         <div class="container">
+            <div class="footer__row">
+               <div class="footer__logo">
+                  <img src="./img/icon/logo.svg" alt="icon">
+               </div>
+               <div class="footer__contact">
+                  <h3>Our contact</h3>
+                  <h4>ADDRESS:</h4>
+                  <span>Republic of Belarus, 3rd Zagorodny pereulok, 4v-41</span>
+                  <h4>PHONES:</h4>
+                  <a href="tel:+375(29) 123-45-67">+375(29) 123-45-67</a>
+                  <h4>Email:</h4>
+                  <a href="mailto:evolutionhotel@gmail.com">evolutionhotel@gmail.com</a>
+               </div>
+               <div class="footer__icon">
+                  <a href="https://www.instagram.com/instagram/?hl=ru"> <img src="./img/icon/instagram-icon.svg"
+                        alt="icon"></a>
+                  <a href="https://web.telegram.org/#/login"><img src="./img/icon/telegram-icon.svg" alt="icon"></a>
+                  <a href="https://twitter.com/?lang=ru"><img src="./img/icon/twitter-icon.svg" alt="icon"></a>
+                  <a href="https://www.facebook.com/"><img src="./img/icon/facebook-icon.svg" alt="icon"></a>
+               </div>
+            </div>
+         </div>
+
+      </footer>
+   </div>
+   <script src="./js/main.js"></script>
+</body>
+
+</html>
